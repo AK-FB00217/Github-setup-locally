@@ -34,6 +34,14 @@ _Else case_: _If there is one branch already then there can be issue of differen
 - ``` git checkout main ```
 - ``` git push origin main -f ```
 
+After all setup and configuration done, only three commands is going to be in use most of the time.
+
+``` git add . ```
+``` git commit -m "commit_message" ```
+``` git push ````
+
+_Note:_ _To push the code in current branch (i.e. main banch), set the remote as upstream using below command_.
+``` git push --set-upstream origin main ```
 
 
 ## Run Locally
